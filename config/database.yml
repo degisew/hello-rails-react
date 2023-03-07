@@ -69,6 +69,6 @@ test:
 #
 production:
   <<: *default
-  database: Recipe_App_production
+  database: Rails_React_production
   username: Rails_React
   password: <%= ENV["RAILS_REACT_DATABASE_PASSWORD"] %>
