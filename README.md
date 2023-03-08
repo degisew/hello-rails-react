@@ -200,7 +200,6 @@ If you like this project give a ⭐️ to repo.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank the Microverse team.
-- I would like to thank [gregoirevella](https://www.behance.net/gregoirevella), the author of the design template
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
