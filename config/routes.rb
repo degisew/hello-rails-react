@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  namespace :api do
-    get 'greets', to: 'greets#index', as: 'greets_path'
+  namespace :v1 do
+    get 'greets', to: 'greets#index'
   end
   root 'roots#index'
 end

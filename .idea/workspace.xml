@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6844c87a-9319-4395-9015-a7374425ae7c" name="Changes" comment="" />
+    <list default="true" id="6844c87a-9319-4395-9015-a7374425ae7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/greets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/v1/greets_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/greetings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/greetings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/redux/greetReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/redux/greetReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +57,7 @@
       <updated>1678216754782</updated>
       <workItem from="1678216759063" duration="16000" />
       <workItem from="1678216798901" duration="11212000" />
-      <workItem from="1678253409915" duration="1075000" />
+      <workItem from="1678253409915" duration="18062000" />
     </task>
     <servers />
   </component>

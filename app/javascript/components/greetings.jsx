@@ -1,22 +1,18 @@
 import React, {useEffect} from 'react'
-    import { useDispatch, useSelector } from "react-redux";
-    import { getAllGreets, fetchGreetingAsyncThank } from "../redux/greetReducer";
+    import {useDispatch, useSelector} from "react-redux";
+    import {fetchGreetingAsyncThank} from "../redux/greetReducer";
     const Greeting = () => {
-        const greetList = useSelector(getAllGreets);
-        console.log(greetList)
-        const dispatch = useDispatch();
-        useEffect(() => {
-            if (greetList.length === 0 )
+        const random = Math.floor(Math.random() * 5);
+            const message = useSelector((state) => state.greetReducer);
+            const dispatch = useDispatch();
+            useEffect(() => {
                 dispatch(fetchGreetingAsyncThank());
-        }, [dispatch]);
-
-        return <ul>
-            Top {greetList.length} greetings
-            {greetList.map((greet) => (
-                    <li>{greet.message}</li>
-                )
-            )}
-        </ul>;
+            }, []);
+        return (
+            <>
+            {message.greets.length === 0 ?  (<h5>Loading...</h5>) : (<h3>{message.greets[random].text}</h3>) }
+            </>
+        );
 }
 
 export { Greeting };
