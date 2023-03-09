@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6844c87a-9319-4395-9015-a7374425ae7c" name="Changes" comment="" />
+    <list default="true" id="6844c87a-9319-4395-9015-a7374425ae7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/greets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/v1/greets_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/greetings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/greetings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/redux/greetReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/redux/greetReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,22 +29,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/Microverse/hello-rails-react",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Microverse/hello-rails-react&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
@@ -48,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678216754782</updated>
       <workItem from="1678216759063" duration="16000" />
-      <workItem from="1678216798901" duration="357000" />
+      <workItem from="1678216798901" duration="11212000" />
+      <workItem from="1678253409915" duration="18062000" />
     </task>
     <servers />
   </component>
